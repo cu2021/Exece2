@@ -1,0 +1,20 @@
+
+.root{
+    -fx-font-size: 14pt;
+}
+.button {
+    -fx-background-color:indigo;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+    -fx-text-fill: white;
+
+}
+
+.check-box:selected .mark {
+    -fx-background-color: green;
+}
+
+.check-box:selected .box {
+    -fx-border-color: green;
+}
